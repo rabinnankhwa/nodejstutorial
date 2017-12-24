@@ -20,21 +20,21 @@ module.exports = {
             password: 'johndoe',
             host: 'localhost',
             port: '27017',
-            dbName: 'express-mvc-skeleton-development'
+            dbName: 'ims'
         },
         production: {
             username: 'johndoe',
             password: 'johndoe',
             host: 'localhost',
             port: '27017',
-            dbName: 'express-mvc-skeleton-production'
+            dbName: 'ims'
         },
         test: {
             username: 'johndoe',
             password: 'johndoe',
             host: 'localhost',
             port: '27017',
-            dbName: 'express-mvc-skeleton-test'
+            dbName: 'ims'
 
         }
     },
@@ -48,7 +48,7 @@ module.exports = {
         port: 465,
         secure:true,
         auth:{
-            user:'express@express-mvc-skeleton.io',
+            user:'express@ims',
             pass:'password'
         },
         template:{
